@@ -19,6 +19,9 @@ $scores[4] = 95;
 
 echo $scores[4];
 */
+
+// using array function
+/*
 $scores = array(90,87,74,80,94);
 
 $scores[2] =85;
@@ -28,6 +31,19 @@ $scores[4] = $scores[2] + 5;
 echo $scores[4];
 echo "<br/>";
 echo $scores[3];
+*/
+// Working  with array Elements
+$scores = array(90,87,74,80,94);
+
+$revisedScore = $scores[0] + 10;
+
+$averageScore = ($scores[0]+$scores[1]+$scores[2]+$scores[3]+$scores[3]+$scores[4]/5);
+if($scores[1]>=60)
+print("PASS!");
+else
+print("FAIL!");
+
+
 
 ?>
 
