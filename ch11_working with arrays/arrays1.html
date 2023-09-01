@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scores Entry Form</title>
+    <link rel="stylesheet" href="sample.css">
+</head>
+<body>
+    <div style="padding: 50px 50px 50px 50px; background: #ffbb;">
+    <h1>Score Entry Form</h1>
+    <!-- Receiving Scores into an Array from an HTML Form -->
+    <form action="arrays1.php" method="post">
+        <table>
+            <tr>
+                <td>Please enter the score for Exam 1:</td>
+                <td><input type="text" size="5" name="exam1"></td>
+            </tr>
+            <tr>
+                <td>Please enter the score for Exam 2:</td>
+                <td><input type="text" size="5" name="exam2"></td>
+            </tr>
+            <tr>
+                <td>Please enter the score for Exam 3:</td>
+                <td><input type="text" size="5" name="exam3"></td>
+            </tr>
+            <tr>
+                <td>Please enter the essay score:</td>
+                <td><input type="text" size="5" name="essay"></td>
+            </tr>
+            <tr>
+                <td>Please enter the project score:</td>
+                <td><input type="text" size="5" name="project"></td>
+            </tr>
+            <tr>
+                <td><input style="background: green;color:yellow; font-size:18px; " type="submit" value="Submit the Scores"></td>
+                <td><input style="background: red;color:yellow; font-size:18px;"  type="reset" value="Clear"></td>
+            </tr>
+
+        </table>
+
+    </form>
+</div>
+</body>
+</html>
