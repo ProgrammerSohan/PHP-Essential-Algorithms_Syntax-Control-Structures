@@ -32,7 +32,8 @@ echo $scores[4];
 echo "<br/>";
 echo $scores[3];
 */
-// Working  with array Elements
+// Working  with array 
+/*
 $scores = array(90,87,74,80,94);
 
 $revisedScore = $scores[0] + 10;
@@ -42,7 +43,7 @@ if($scores[1]>=60)
 print("PASS!");
 else
 print("FAIL!");
-
+*/
 
 
 ?>
